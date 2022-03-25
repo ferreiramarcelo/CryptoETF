@@ -4,13 +4,14 @@
     "bitfinex": "^1.0.3",
     "coinbase": "^2.0.6",
     "colors": "^1.1.2",
-    "gdax": "^0.4.2",
+    "gdax": "^0.5.1",
     "kraken-api": "^1.0.0",
     "node-bittrex-api": "^0.8.1",
     "poloniex-api-node": "^1.6.5",
     "request-promise": "^4.2.2",
     "requestretry": "^1.12.2",
-    "table": "^4.0.2"
+    "table": "^4.0.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel": "^6.23.0",
@@ -29,7 +30,10 @@
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "build": "npx babel src --out-dir dist",
     "testLocal": "./node_modules/.bin/nyc mocha --require babel-core/register test/**/*.js test/**/**/*.js",
-    "test": "NODE_ENV=test npm run testLocal"
+    "test": "NODE_ENV=test npm run testLocal",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
-  "version": "1.8.1"
+  "version": "1.8.1",
+  "snyk": true
 }

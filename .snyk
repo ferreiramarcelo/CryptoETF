@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - requestretry > lodash:
+        patched: '2022-03-25T21:33:19.620Z'
+    - table > lodash:
+        patched: '2022-03-25T21:33:19.620Z'
+    - request-promise > request-promise-core > lodash:
+        patched: '2022-03-25T21:33:19.620Z'
+    - coinbase > request > form-data > async > lodash:
+        patched: '2022-03-25T21:33:19.620Z'
+    - gdax > request > form-data > async > lodash:
+        patched: '2022-03-25T21:33:19.620Z'
+    - node-bittrex-api > request > form-data > async > lodash:
+        patched: '2022-03-25T21:33:19.620Z'
+    - requestretry > request > form-data > async > lodash:
+        patched: '2022-03-25T21:33:19.620Z'
+    - node-bittrex-api > cloudscraper > request > form-data > async > lodash:
+        patched: '2022-03-25T21:33:19.620Z'
