@@ -4,11 +4,11 @@
     "bitfinex": "^1.0.3",
     "coinbase": "^2.0.6",
     "colors": "^1.1.2",
-    "gdax": "^0.4.2",
+    "gdax": "^0.9.0",
     "kraken-api": "^1.0.0",
     "node-bittrex-api": "^0.8.1",
     "poloniex-api-node": "^1.6.5",
-    "request-promise": "^4.2.2",
+    "request-promise": "^4.2.6",
     "requestretry": "^1.12.2",
     "table": "^4.0.2"
   },
