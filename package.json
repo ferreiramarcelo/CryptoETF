@@ -1,16 +1,16 @@
 {
   "dependencies": {
-    "binance": "^1.1.0",
+    "binance": "^2.0.0",
     "bitfinex": "^1.0.3",
     "coinbase": "^2.0.6",
     "colors": "^1.1.2",
     "gdax": "^0.4.2",
-    "kraken-api": "^1.0.0",
+    "kraken-api": "^1.0.2",
     "node-bittrex-api": "^0.8.1",
-    "poloniex-api-node": "^1.6.5",
+    "poloniex-api-node": "^3.0.0",
     "request-promise": "^4.2.2",
-    "requestretry": "^1.12.2",
-    "table": "^4.0.2"
+    "requestretry": "^2.0.0",
+    "table": "^6.0.8"
   },
   "devDependencies": {
     "babel": "^6.23.0",
